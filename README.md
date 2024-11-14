@@ -39,13 +39,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Transport Service Prototype
+# Transport Service Prototype
 
 This is a prototype for a Car Transport Service web application. This project allows users to book car transport, get price estimates, and track the status of their car transport order. Built with React and styled with Tailwind CSS, it offers a simple and responsive user experience.
 
 ## Features
 
-# Landing Page
+### Landing Page
 
 A visually appealing landing page welcoming users to the service.
 Information on the transport service provided.
@@ -54,17 +54,17 @@ Booking Form
 Allows users to enter pickup and drop-off cities, date, and transport type.
 Saves booking information and confirms the entry.
 
-# Price Estimator
+### Price Estimator
 
 Calculates the estimated price based on distance and transport type.
 Displayed dynamically based on user input.
 
-# Order Tracking
+### Order Tracking
 
 Users can enter a tracking ID to get the current status of their car transport.
 Basic feedback provided based on the tracking ID entered.
 
-# Tech Stack
+### Tech Stack
 
 React: A JavaScript library for building user interfaces.
 Tailwind CSS: Utility-first CSS framework for custom and responsive styling.
