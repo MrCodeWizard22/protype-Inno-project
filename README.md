@@ -39,32 +39,33 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Transport Service Prototype
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This is a prototype for a Car Transport Service web application. This project allows users to book car transport, get price estimates, and track the status of their car transport order. Built with React and styled with Tailwind CSS, it offers a simple and responsive user experience.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features
 
-### Code Splitting
+# Landing Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+A visually appealing landing page welcoming users to the service.
+Information on the transport service provided.
+Booking Form
 
-### Analyzing the Bundle Size
+Allows users to enter pickup and drop-off cities, date, and transport type.
+Saves booking information and confirms the entry.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Price Estimator
 
-### Making a Progressive Web App
+Calculates the estimated price based on distance and transport type.
+Displayed dynamically based on user input.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Order Tracking
 
-### Advanced Configuration
+Users can enter a tracking ID to get the current status of their car transport.
+Basic feedback provided based on the tracking ID entered.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Tech Stack
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React: A JavaScript library for building user interfaces.
+Tailwind CSS: Utility-first CSS framework for custom and responsive styling.
+React Router: Used for routing and navigation between pages.
